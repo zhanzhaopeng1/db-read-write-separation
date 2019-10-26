@@ -1,0 +1,17 @@
+{
+    "name": "zhaopeng/db-read-write-separation",
+    "description": "基于P做的数据库读写分离代码",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zhaopeng",
+            "email": "zhaopeng@youxin.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "dbrw\\": "src/"
+        }
+    }
+}
