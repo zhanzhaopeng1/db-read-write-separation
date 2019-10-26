@@ -1,9 +1,9 @@
 # db-read-write-separation
 
-###基于Pdo做的主从分离器
+基于Pdo做的主从分离器
 
-####配置文件基于不同的框架来做，项目中没有固定配置格式
-####项目封装了pdo对象，没有封装具体的CURD 代码，需要自己扩展,只需要在MysqlConnection中扩展就可以了
+配置文件基于不同的框架来做，项目中没有固定配置格式
+项目封装了pdo对象，没有封装具体的CURD 代码，需要自己扩展,只需要在MysqlConnection中扩展就可以了
 
 use dbrw\connectors\ConnectionFactory;
 
